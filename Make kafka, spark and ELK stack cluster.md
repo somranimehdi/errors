@@ -76,8 +76,9 @@ On the master machine, edit the conf/spark-env.sh file in the Spark directory an
 export SPARK_MASTER_HOST=<master-ip>
 export SPARK_MASTER_PORT=7077
 export SPARK_LOCAL_IP=<master-ip>
-Replace <master-ip> with the IP address of the master machine.
 ```
+Replace <master-ip> with the IP address of the master machine.
+
 On the slaves machine, edit the conf/spark-env.sh file in the Spark directory and add the following lines:
 
 
